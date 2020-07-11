@@ -14,12 +14,12 @@ https://sphere.social/hello/search/hashtags/"
 and this is what I got. The developer seems did not turn off the debug flag, so it is easier to see what query is being executed. The error looks like this:
 ![error](./001.png)
 
-The query looks so easily to be bypassed, so I tried the following payload
+If you are experienced in SQL injection, the above situation must be a low-hanging fruit which is easily to be injected. So I tried the following payload:
 ```
 " and 0 union select 1,2,3,4,5,6 -- -+
 ```
 
-The endpoint become
+The endpoint become:
 ```
 https://sphere.social/hello/search/hashtags/%22+and+0+union+select+1%2C2%2C3%2C4%2C5%2C6+--+-%2B
 ```
