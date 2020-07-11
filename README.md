@@ -65,7 +65,7 @@ I tried to check the HTTP port on this address and it redirected me to `https://
 
 This is enough evidence to conclude that the server behind the Cloudflare is `50.28.107.96`.
 
-After that, I plug the real server address to my `/etc/hosts` file, and ready to check if the Cloudflare's firewall is gone.
+After that, I plugged the real server address to my `/etc/hosts` file, and ready to check if the Cloudflare's firewall is gone.
 ![error](./006.png)
 
 
