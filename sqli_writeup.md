@@ -30,7 +30,7 @@ It was then not that easy, Cloudflare's firewall blocked my attempt and showed m
 ![error](./002.png)
 
 
-I was trying to bypass the Cloudflare's firewall, but no success.
+I was trying to bypass the Cloudflare's firewall with encoding, comment technique and many more, but no success.
 
 
 But then I realized that Cloudflare is just a DNS proxy.
