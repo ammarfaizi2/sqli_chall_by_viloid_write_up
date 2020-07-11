@@ -46,3 +46,7 @@ I tried to use `whois` to find the domain information, but no success.
 The only necessary I got is just the domain was bought from godaddy.
 
 ![error](./003.png)
+
+Futhermore, I tried to find the DNS history by using the server from https://viewdns.info/ and this is what I got:
+
+![error](./004.png)
