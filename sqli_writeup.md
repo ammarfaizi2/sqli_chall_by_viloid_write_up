@@ -59,5 +59,7 @@ So my conclusion based on the DNS history above was:
 
 Therefore, it is possible that `50.28.107.96` be the real server address behind the Cloudflare.
 
-I tried to check the HTTP port on this address and it redirected me to `https://sphere.social/`. This is enough evidence that the server behind the Cloudflare is `50.28.107.96`.
+I tried to check the HTTP port on this address and it redirected me to `https://sphere.social/`.
+
+This is enough evidence to conclude that the server behind the Cloudflare is `50.28.107.96`.
 
