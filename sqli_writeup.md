@@ -50,3 +50,14 @@ The only necessary I got is just the domain was bought from godaddy.
 Futhermore, I tried to find the DNS history by using the server from https://viewdns.info/ and this is what I got:
 
 ![error](./004.png)
+
+
+So my conclusion based on the DNS history above was:
+1. `50.63.202.45` was the default page when the domain was bought.
+2. `50.28.107.96` is the IP address after domain was configured.
+3. Then the domain nameserver was moved to the Cloudflare.
+
+Therefore, it is possible that `50.28.107.96` be the real server address behind the Cloudflare.
+
+I tried to check the HTTP port on this address and it redirected me to `https://sphere.social/`. This is enough evidence that the server behind the Cloudflare is `50.28.107.96`.
+
