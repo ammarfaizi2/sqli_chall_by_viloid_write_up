@@ -24,5 +24,17 @@ The endpoint become:
 https://sphere.social/hello/search/hashtags/%22+and+0+union+select+1%2C2%2C3%2C4%2C5%2C6+--+-%2B
 ```
 
-It is then not that easy, Cloudflare's firewall blocked my attempt and showed me this page:
+It was then not that easy, Cloudflare's firewall blocked my attempt and showed me this page:
+
+
 ![error](./002.png)
+
+
+I was trying to bypass the Cloudflare's firewall, but no success.
+
+
+But then I realized that Cloudflare is just a DNS proxy.
+
+
+So basically if we can find the real address of the server behind the Cloudflare, we can easily bypass this extreme firewall.
+
