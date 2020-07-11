@@ -12,7 +12,7 @@ https://sphere.social/hello/search/hashtags/"
 ```
 
 and this is what I got. The developer seems did not turn off the debug flag, so it is easier to see what query is being executed. The error looks like this:
-![error](./001.png)
+![xxx](./001.png)
 
 If you are experienced in SQL injection, the above situation must be a low-hanging fruit which is easily to be injected. So I tried the following payload:
 ```
@@ -27,7 +27,7 @@ https://sphere.social/hello/search/hashtags/%22+and+0+union+select+1%2C2%2C3%2C4
 It was then not that easy, Cloudflare's firewall blocked my attempt and showed me this page:
 
 
-![error](./002.png)
+![xxx](./002.png)
 
 
 I was trying to bypass the Cloudflare's firewall with encoding, comment technique and many more, but no success.
@@ -39,3 +39,10 @@ But then I realized that Cloudflare is just a DNS proxy.
 So basically if we can find the real address of the server behind the Cloudflare, we can easily bypass this extreme firewall.
 
 # (2) Finding Server's IP Address Behind The Cloudflare
+
+I tried to use `whois` to find the domain information, but no success.
+
+
+The only necessary I got is just the domain was bought from godaddy.
+
+![error](./003.png)
