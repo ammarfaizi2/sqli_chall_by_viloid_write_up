@@ -77,3 +77,7 @@ https://sphere.social/hello/search/hashtags/%22+and+0+union+select+1%2C2%2C3%2C4
 
 But, nothing showed, just something like this.
 ![error](./007.png)
+
+
+I tried to expand the code, and here is what I got:
+![error](./008.png)
