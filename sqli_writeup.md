@@ -38,3 +38,4 @@ But then I realized that Cloudflare is just a DNS proxy.
 
 So basically if we can find the real address of the server behind the Cloudflare, we can easily bypass this extreme firewall.
 
+# (2) Finding Server's IP Address Behind The Cloudflare
