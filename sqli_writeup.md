@@ -70,3 +70,10 @@ After that, I plug the real server address to my `/etc/hosts` file, and ready to
 
 
 # (3) Reanalyzing Target and Execute The Right Payload
+After plugging the real server IP, I tried to go with this endpoint again.
+```
+https://sphere.social/hello/search/hashtags/%22+and+0+union+select+1%2C2%2C3%2C4%2C5%2C6+--+-%2B
+```
+
+But, nothing showed, just something like this.
+![error](./007.png)
