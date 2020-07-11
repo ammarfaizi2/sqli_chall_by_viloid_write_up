@@ -9,5 +9,5 @@ We know that "1" is the parameter which may involve query to database. After sev
 https://sphere.social/hello/search/hashtags/"
 ```
 
-The error says:
+The error says (the developer seems did not turn off the debug flag, so it is easier to see what query is being executed):
 ![error](./001.png)
